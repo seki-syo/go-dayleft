@@ -223,8 +223,6 @@ func mainLoop() {
 		case <-dCh:
 			//日付が変わるとき
 			UpdatePlanInfo()
-
-		default:
 		}
 	}
 }
